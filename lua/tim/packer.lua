@@ -4,6 +4,8 @@ return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
 
+    use 'nvim-tree/nvim-web-devicons'
+
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.3',
         requires = { {'nvim-lua/plenary.nvim'} }
@@ -16,6 +18,8 @@ return require('packer').startup(function(use)
     use('theprimeagen/harpoon')
 
     use('mbbill/undotree')
+
+    use('christoomey/vim-tmux-navigator')
 
     use('tpope/vim-fugitive')
 
