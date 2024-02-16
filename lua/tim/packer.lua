@@ -29,7 +29,7 @@ return require('packer').startup(function(use)
 
     use('mbbill/undotree')
 
-    use('christoomey/vim-tmux-navigator')
+    use('alexghergh/nvim-tmux-navigation')
 
     use('tpope/vim-fugitive')
 
